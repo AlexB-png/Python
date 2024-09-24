@@ -13,7 +13,7 @@ while quit != "yes":
     b=input("Second number")
 
     #defensive design A
-    for i in range(9999):
+    for i in range(9999999):
         i=str(i)
         if i==a:
             x=1
@@ -23,7 +23,7 @@ while quit != "yes":
         a=int(a)
 
     #defensive design B
-    for i in range(9999):
+    for i in range(9999999):
         i=str(i)
         if i==b:
             y=1
