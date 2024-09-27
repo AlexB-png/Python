@@ -7,14 +7,11 @@ for i in range(100000000000):
         break
     else:
         z=x+y
-        
         if z > value:
             break
         else:
-            
             print(z)
             x=y+z
-            
             if x > value:
                 break
             else:
