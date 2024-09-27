@@ -1,20 +1,8 @@
-funds=0
 recieved=1
-left=0
-cash=0
-n1=0
 total=0
 cost=0
 more=0
-error=0
 
-sandwich=0
-coke=0
-pepsi=0
-Energy=0
-water=0
-tea=0
-        
 while recieved != 0:
     print("")
     recieved=input("What cash have you input 10p 20p 50p 100p 200p")
