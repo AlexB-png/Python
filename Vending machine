@@ -76,8 +76,8 @@ while total >= 100:
     more = more + 1
 
 
-if error != 1:
-    print("")
-    print("")
-    print("Thank you for using the vending machine")
-    print("We have returned £",more,"and",total,"p")
+
+print("")
+print("")
+print("Thank you for using the vending machine")
+print("We have returned £",more,"and",total,"p")
