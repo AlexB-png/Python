@@ -6,5 +6,11 @@ x=0
 x=len(numbers) #figures out how many numbers are in the list#
 print("") #Leaves a space between the list#
 print(numbers[x-1],"is the largest number in the list") #returns the largest number#
-
+average=0
+total=0
+for i in numbers:
+    total = total + i
+total= total/len(numbers)
+print("")
+print(total,"is the average")
 
